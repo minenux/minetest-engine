@@ -171,7 +171,7 @@ msgstr ""
 
 #: builtin/mainmenu/dlg_create_world.lua
 msgid "A world named \"$1\" already exists"
-msgstr ""
+msgstr "Ya existe un mundo de nombre \"$1\""
 
 #: builtin/mainmenu/dlg_create_world.lua
 msgid "No worldname given or no game selected"
@@ -204,11 +204,11 @@ msgstr ""
 
 #: builtin/mainmenu/dlg_rename_modpack.lua
 msgid "Accept"
-msgstr ""
+msgstr "Aceptar"
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Games"
-msgstr ""
+msgstr "Juegos"
 
 #: builtin/mainmenu/dlg_settings_advanced.lua builtin/mainmenu/tab_mods.lua
 msgid "Mods"
@@ -224,49 +224,51 @@ msgstr ""
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Possible values are: "
-msgstr ""
+msgstr "Posibles valores son: "
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid ""
 "Format: <offset>, <scale>, (<spreadX>, <spreadY>, <spreadZ>), <seed>, "
 "<octaves>, <persistence>"
 msgstr ""
+"Formato: <offset>, <escala>, (<dispersión_X>, <dispersión_Y>, <dispersión_Z>), "
+"<semilla>, <octavas>, <persistencia>"
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Optionally the lacunarity can be appended with a leading comma."
-msgstr ""
+msgstr "Opcionalmente la lacunaridad se puede añadir precediendola de una coma."
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Format is 3 numbers separated by commas and inside brackets."
-msgstr ""
+msgstr "El formato es 3 números separados por comas y entre corchetes."
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Disabled"
-msgstr ""
+msgstr "Desactivado"
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Enabled"
-msgstr ""
+msgstr "Activado"
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Browse"
-msgstr ""
+msgstr "Navegar"
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Please enter a valid integer."
-msgstr ""
+msgstr "Por favor, introduzca un entero válido."
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "The value must be at least $1."
-msgstr ""
+msgstr "El valor debe ser al menos $1."
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "The value must not be larger than $1."
-msgstr ""
+msgstr "El valor no debe ser mayor de $1."
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Please enter a valid number."
-msgstr ""
+msgstr "Por favor, introduzca un número válido."
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "\"$1\" is not a valid flag."
@@ -274,7 +276,7 @@ msgstr ""
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Select path"
-msgstr ""
+msgstr "Seleccione ruta"
 
 #: builtin/mainmenu/dlg_settings_advanced.lua builtin/mainmenu/store.lua
 #: builtin/mainmenu/tab_online.lua
@@ -287,7 +289,7 @@ msgstr ""
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Restore Default"
@@ -295,7 +297,7 @@ msgstr ""
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Show technical names"
-msgstr ""
+msgstr "Mostrar nombres técnicos"
 
 #: builtin/mainmenu/modmgr.lua
 msgid "Install Mod: file: \"$1\""
@@ -357,11 +359,11 @@ msgstr ""
 
 #: builtin/mainmenu/store.lua
 msgid "Page $1 of $2"
-msgstr ""
+msgstr "Página $1 de $2"
 
 #: builtin/mainmenu/tab_credits.lua
 msgid "Credits"
-msgstr ""
+msgstr "Créditos"
 
 #: builtin/mainmenu/tab_credits.lua
 msgid "Core Developers"
@@ -393,7 +395,7 @@ msgstr ""
 
 #: builtin/mainmenu/tab_local.lua builtin/mainmenu/tab_simple_main.lua
 msgid "Creative Mode"
-msgstr ""
+msgstr "Modo creativo"
 
 #: builtin/mainmenu/tab_local.lua builtin/mainmenu/tab_simple_main.lua
 msgid "Enable Damage"
@@ -413,7 +415,7 @@ msgstr ""
 
 #: builtin/mainmenu/tab_local.lua
 msgid "Name/Password"
-msgstr ""
+msgstr "Nombre/contraseña"
 
 #: builtin/mainmenu/tab_local.lua
 msgid "Bind Address"
@@ -421,7 +423,7 @@ msgstr ""
 
 #: builtin/mainmenu/tab_local.lua
 msgid "Port"
-msgstr ""
+msgstr "Puerto"
 
 #: builtin/mainmenu/tab_local.lua
 msgid "Server Port"
@@ -461,7 +463,7 @@ msgstr ""
 
 #: builtin/mainmenu/tab_mods.lua
 msgid "No dependencies."
-msgstr ""
+msgstr "Sin dependencias."
 
 #: builtin/mainmenu/tab_mods.lua
 msgid "Uninstall selected mod"
