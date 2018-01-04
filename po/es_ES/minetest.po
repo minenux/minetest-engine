@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: minetest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-21 17:40+0200\n"
-"PO-Revision-Date: 2018-01-04 01:34+0100\n"
+"PO-Revision-Date: 2018-01-04 03:13+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -946,11 +946,11 @@ msgstr ""
 
 #: src/game.cpp
 msgid "- Public: "
-msgstr ""
+msgstr "- Público: "
 
 #: src/game.cpp
 msgid "- Server Name: "
-msgstr ""
+msgstr "- Nombre del servidor: "
 
 #: src/game.cpp
 msgid ""
@@ -980,47 +980,47 @@ msgstr ""
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Key already in use"
-msgstr ""
+msgstr "La tecla ya está en uso"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "press key"
-msgstr ""
+msgstr "Pulse una tecla"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Forward"
-msgstr ""
+msgstr "Avanzar"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Backward"
-msgstr ""
+msgstr "Retroceder"
 
 #: src/guiKeyChangeMenu.cpp src/keycode.cpp
 msgid "Left"
-msgstr ""
+msgstr "Izquierda"
 
 #: src/guiKeyChangeMenu.cpp src/keycode.cpp
 msgid "Right"
-msgstr ""
+msgstr "Derecha"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Use"
-msgstr ""
+msgstr "Usar"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Jump"
-msgstr ""
+msgstr "Saltar"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Sneak"
-msgstr ""
+msgstr "sigilo"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Drop"
-msgstr ""
+msgstr "Soltar"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Inventory"
-msgstr ""
+msgstr "Inventario"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Prev. item"
@@ -1032,31 +1032,31 @@ msgstr ""
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Mute"
-msgstr ""
+msgstr "Silenciar"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Dec. volume"
-msgstr ""
+msgstr "Bajar volumen"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Inc. volume"
-msgstr ""
+msgstr "Subir volumen"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Command"
-msgstr ""
+msgstr "Comando"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Local command"
-msgstr ""
+msgstr "Comando local"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Console"
-msgstr ""
+msgstr "Consola"
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Toggle fly"
@@ -1076,27 +1076,27 @@ msgstr ""
 
 #: src/guiKeyChangeMenu.cpp
 msgid "Range select"
-msgstr ""
+msgstr "Seleccionar rango"
 
 #: src/guiKeyChangeMenu.cpp src/settings_translation_file.cpp
 msgid "Print stacks"
-msgstr ""
+msgstr "Imprimir pilas"
 
 #: src/guiKeyChangeMenu.cpp src/keycode.cpp
 msgid "Zoom"
-msgstr ""
+msgstr "Zoom"
 
 #: src/guiPasswordChange.cpp
 msgid "Old Password"
-msgstr ""
+msgstr "Contraseña anterior"
 
 #: src/guiPasswordChange.cpp
 msgid "New Password"
-msgstr ""
+msgstr "Nueva contraseña"
 
 #: src/guiPasswordChange.cpp
 msgid "Confirm Password"
-msgstr ""
+msgstr "Confirmar contraseña"
 
 #: src/guiPasswordChange.cpp
 msgid "Change"
@@ -1104,75 +1104,76 @@ msgstr ""
 
 #: src/guiPasswordChange.cpp
 msgid "Passwords do not match!"
-msgstr ""
+msgstr "¡Las contraseñas no coinciden!"
 
 #: src/guiVolumeChange.cpp
 msgid "Sound Volume: "
-msgstr ""
+msgstr "Volumen del sonido: "
 
 #: src/guiVolumeChange.cpp
 msgid "Exit"
-msgstr ""
+msgstr "Salir"
 
 #: src/keycode.cpp
 msgid "Left Button"
-msgstr ""
+msgstr "Botón Izquierdo"
 
 #: src/keycode.cpp
 msgid "Right Button"
-msgstr ""
+msgstr "Botón derecho"
 
 #: src/keycode.cpp
 msgid "Middle Button"
-msgstr ""
+msgstr "Botón central"
 
 #: src/keycode.cpp
 msgid "X Button 1"
-msgstr ""
+msgstr "Botón X 1"
 
 #: src/keycode.cpp
 msgid "X Button 2"
-msgstr ""
+msgstr "Botón X 2"
 
 #: src/keycode.cpp
 msgid "Back"
-msgstr ""
+msgstr "Retroceso"
 
 #: src/keycode.cpp
 msgid "Tab"
-msgstr ""
+msgstr "Tabulador"
 
 #: src/keycode.cpp
+#, fuzzy
 msgid "Clear"
-msgstr ""
+msgstr "Suprimir"
 
 #: src/keycode.cpp
 msgid "Return"
-msgstr ""
+msgstr "Return"
 
 #: src/keycode.cpp
 msgid "Shift"
-msgstr ""
+msgstr "Mayúsculas"
 
 #: src/keycode.cpp
 msgid "Control"
-msgstr ""
+msgstr "Control"
 
 #: src/keycode.cpp
 msgid "Menu"
-msgstr ""
+msgstr "Menú"
 
 #: src/keycode.cpp
 msgid "Pause"
-msgstr ""
+msgstr "Pausa"
 
 #: src/keycode.cpp
 msgid "Caps Lock"
-msgstr ""
+msgstr "Bloq. mayúsculas"
 
 #: src/keycode.cpp
 msgid "Space"
-msgstr ""
+msgstr "Espacio"
 
 #: src/keycode.cpp
 msgid "Prior"
@@ -1192,11 +1193,11 @@ msgstr ""
 
 #: src/keycode.cpp
 msgid "Up"
-msgstr ""
+msgstr "Arriba"
 
 #: src/keycode.cpp
 msgid "Down"
-msgstr ""
+msgstr "Abajo"
 
 #: src/keycode.cpp
 msgid "Select"
@@ -1211,12 +1212,13 @@ msgid "Execute"
 msgstr ""
 
 #: src/keycode.cpp
+#, fuzzy
 msgid "Snapshot"
-msgstr ""
+msgstr "Capturar pantalla"
 
 #: src/keycode.cpp
 msgid "Insert"
-msgstr ""
+msgstr "Insert"
 
 #: src/keycode.cpp
 msgid "Help"
@@ -1224,103 +1226,103 @@ msgstr ""
 
 #: src/keycode.cpp
 msgid "Left Windows"
-msgstr ""
+msgstr "Windows Izq."
 
 #: src/keycode.cpp
 msgid "Right Windows"
-msgstr ""
+msgstr "Windows der."
 
 #: src/keycode.cpp
 msgid "Numpad 0"
-msgstr ""
+msgstr "Numérico 0"
 
 #: src/keycode.cpp
 msgid "Numpad 1"
-msgstr ""
+msgstr "Numérico 1"
 
 #: src/keycode.cpp
 msgid "Numpad 2"
-msgstr ""
+msgstr "Numérico 2"
 
 #: src/keycode.cpp
 msgid "Numpad 3"
-msgstr ""
+msgstr "Numérico 3"
 
 #: src/keycode.cpp
 msgid "Numpad 4"
-msgstr ""
+msgstr "Numérico 4"
 
 #: src/keycode.cpp
 msgid "Numpad 5"
-msgstr ""
+msgstr "Numérico 5"
 
 #: src/keycode.cpp
 msgid "Numpad 6"
-msgstr ""
+msgstr "Numérico 6"
 
 #: src/keycode.cpp
 msgid "Numpad 7"
-msgstr ""
+msgstr "Numérico 7"
 
 #: src/keycode.cpp
 msgid "Numpad 8"
-msgstr ""
+msgstr "Numérico 8"
 
 #: src/keycode.cpp
 msgid "Numpad 9"
-msgstr ""
+msgstr "Numérico 9"
 
 #: src/keycode.cpp
 msgid "Numpad *"
-msgstr ""
+msgstr "Numérico *"
 
 #: src/keycode.cpp
 msgid "Numpad +"
-msgstr ""
+msgstr "Numérico +"
 
 #: src/keycode.cpp
 msgid "Numpad ."
-msgstr ""
+msgstr "Numérico ."
 
 #: src/keycode.cpp
 msgid "Numpad -"
-msgstr ""
+msgstr "Numérico -"
 
 #: src/keycode.cpp
 msgid "Numpad /"
-msgstr ""
+msgstr "Numérico /"
 
 #: src/keycode.cpp
 msgid "Num Lock"
-msgstr ""
+msgstr "Bloq. Num."
 
 #: src/keycode.cpp
 msgid "Scroll Lock"
-msgstr ""
+msgstr "Bloq. Despl."
 
 #: src/keycode.cpp
 msgid "Left Shift"
-msgstr ""
+msgstr "Mayus. izq."
 
 #: src/keycode.cpp
 msgid "Right Shift"
-msgstr ""
+msgstr "Mayús. der."
 
 #: src/keycode.cpp
 msgid "Left Control"
-msgstr ""
+msgstr "Control izq."
 
 #: src/keycode.cpp
 msgid "Right Control"
-msgstr ""
+msgstr "Control der."
 
 #: src/keycode.cpp
 msgid "Left Menu"
-msgstr ""
+msgstr "Menú izq."
 
 #: src/keycode.cpp
 msgid "Right Menu"
-msgstr ""
+msgstr "Menú der."
 
 #: src/keycode.cpp
 msgid "IME Escape"
@@ -1364,15 +1366,15 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid "Client"
-msgstr ""
+msgstr "Cliente"
 
 #: src/settings_translation_file.cpp
 msgid "Controls"
-msgstr ""
+msgstr "Controles"
 
 #: src/settings_translation_file.cpp
 msgid "Build inside player"
-msgstr ""
+msgstr "Construir dentro del jugador"
 
 #: src/settings_translation_file.cpp
 msgid ""
@@ -1380,20 +1382,25 @@ msgid ""
 "you stand.\n"
 "This is helpful when working with nodeboxes in small areas."
 msgstr ""
+"Si se activa, puede colocar bloques en la posición (desde pies a cabeza) en "
+"que esté.\n"
+"Esto es de ayuda cuando trabaje con nodos en lugares pequeños"
 
 #: src/settings_translation_file.cpp
 msgid "Flying"
-msgstr ""
+msgstr "Volar"
 
 #: src/settings_translation_file.cpp
 msgid ""
 "Player is able to fly without being affected by gravity.\n"
 "This requires the \"fly\" privilege on the server."
 msgstr ""
+"El jugador pude volar sin ser afectado por la gravedad.\n"
+"Esto requiere el privilegio \"volar\" en el servidor."
 
 #: src/settings_translation_file.cpp
 msgid "Fast movement"
-msgstr ""
+msgstr "Movimiento rápido"
 
 #: src/settings_translation_file.cpp
 msgid ""
@@ -1414,7 +1421,7 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid "Cinematic mode"
-msgstr ""
+msgstr "Modo cinemático"
 
 #: src/settings_translation_file.cpp
 msgid ""
@@ -3415,19 +3422,19 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid "Liquid fluidity"
-msgstr ""
+msgstr "Fluidez de líquidos"
 
 #: src/settings_translation_file.cpp
 msgid "Liquid fluidity smoothing"
-msgstr ""
+msgstr "Suavizado de fluidez de líquidos"
 
 #: src/settings_translation_file.cpp
 msgid "Liquid sink"
-msgstr ""
+msgstr "Control de líquidos"
 
 #: src/settings_translation_file.cpp
 msgid "Gravity"
-msgstr ""
+msgstr "Gravedad"
 
 #: src/settings_translation_file.cpp
 msgid "Deprecated Lua API handling"
