@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the minetest package.
 # minduser00, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: minetest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-21 17:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: minduser00\n"
+"PO-Revision-Date: 2018-01-04 01:34+0100\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: builtin/client/init.lua
 msgid "Respawn"
@@ -36,7 +36,7 @@ msgstr "Menú principal"
 
 #: builtin/fstk/ui.lua
 msgid "Reconnect"
-msgstr ""
+msgstr "Reconectar"
 
 #: builtin/fstk/ui.lua
 msgid "An error occured in a Lua script, such as a mod:"
@@ -231,12 +231,13 @@ msgid ""
 "Format: <offset>, <scale>, (<spreadX>, <spreadY>, <spreadZ>), <seed>, "
 "<octaves>, <persistence>"
 msgstr ""
-"Formato: <offset>, <escala>, (<dispersión_X>, <dispersión_Y>, <dispersión_Z>), "
-"<semilla>, <octavas>, <persistencia>"
+"Formato: <offset>, <escala>, (<dispersión_X>, <dispersión_Y>, "
+"<dispersión_Z>), <semilla>, <octavas>, <persistencia>"
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Optionally the lacunarity can be appended with a leading comma."
-msgstr "Opcionalmente la lacunaridad se puede añadir precediendola de una coma."
+msgstr ""
+"Opcionalmente la lacunaridad se puede añadir precediendola de una coma."
 
 #: builtin/mainmenu/dlg_settings_advanced.lua
 msgid "Format is 3 numbers separated by commas and inside brackets."
@@ -563,15 +564,15 @@ msgstr ""
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "2x"
-msgstr ""
+msgstr "x2"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "4x"
-msgstr ""
+msgstr "x4"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "8x"
-msgstr ""
+msgstr "x8"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Are you sure to reset your singleplayer world?"
@@ -579,11 +580,11 @@ msgstr ""
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Yes"
-msgstr ""
+msgstr "Si"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Smooth Lighting"
@@ -591,19 +592,19 @@ msgstr ""
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Particles"
-msgstr ""
+msgstr "Partículas"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "3D Clouds"
-msgstr ""
+msgstr "Nubes 3D"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Opaque Water"
-msgstr ""
+msgstr "Agua opaca"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Connected Glass"
-msgstr ""
+msgstr "Cristal conectado"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Texturing:"
@@ -615,7 +616,7 @@ msgstr ""
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Screen:"
-msgstr ""
+msgstr "Pantalla:"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Autosave screen size"
@@ -635,7 +636,7 @@ msgstr ""
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Ajustes avanzados"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Touchthreshold (px)"
@@ -655,19 +656,19 @@ msgstr ""
 
 #: builtin/mainmenu/tab_settings.lua src/settings_translation_file.cpp
 msgid "Parallax Occlusion"
-msgstr ""
+msgstr "Oclusión de paralaje"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Waving Water"
-msgstr ""
+msgstr "Oleaje del agua"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Waving Leaves"
-msgstr ""
+msgstr "Movimiento de hojas"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Waving Plants"
-msgstr ""
+msgstr "Movimiento de plantas"
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "To enable shaders the OpenGL driver needs to be used."
@@ -675,7 +676,7 @@ msgstr ""
 
 #: builtin/mainmenu/tab_settings.lua
 msgid "Settings"
-msgstr ""
+msgstr "Ajustes"
 
 #: builtin/mainmenu/tab_simple_main.lua
 msgid "Start Singleplayer"
@@ -691,11 +692,11 @@ msgstr ""
 
 #: builtin/mainmenu/tab_texturepacks.lua
 msgid "Select texture pack:"
-msgstr ""
+msgstr "Seleccionar paquete de texturas:"
 
 #: builtin/mainmenu/tab_texturepacks.lua
 msgid "No information available"
-msgstr ""
+msgstr "No hay información disponible"
 
 #: builtin/mainmenu/tab_texturepacks.lua
 msgid "Texturepacks"
@@ -703,11 +704,11 @@ msgstr ""
 
 #: src/client.cpp
 msgid "Connection timed out."
-msgstr ""
+msgstr "Conexión expirada."
 
 #: src/client.cpp
 msgid "Loading textures..."
-msgstr ""
+msgstr "Cargando texturas..."
 
 #: src/client.cpp
 msgid "Rebuilding shaders..."
@@ -715,31 +716,31 @@ msgstr ""
 
 #: src/client.cpp
 msgid "Initializing nodes..."
-msgstr ""
+msgstr "Inicializando nodos..."
 
 #: src/client.cpp
 msgid "Initializing nodes"
-msgstr ""
+msgstr "Inicializando nodos"
 
 #: src/client.cpp
 msgid "Done!"
-msgstr ""
+msgstr "¡Hecho!"
 
 #: src/client/clientlauncher.cpp
 msgid "Main Menu"
-msgstr ""
+msgstr "Menú principal"
 
 #: src/client/clientlauncher.cpp
 msgid "Player name too long."
-msgstr ""
+msgstr "Nombre de jugador demasiado largo."
 
 #: src/client/clientlauncher.cpp
 msgid "Connection error (timed out?)"
-msgstr ""
+msgstr "Error al conectar (¿tiempo expirado?)"
 
 #: src/client/clientlauncher.cpp
 msgid "Please choose a name!"
-msgstr ""
+msgstr "Por favor, escoja un nombre"
 
 #: src/client/clientlauncher.cpp
 msgid "No world selected and no address provided. Nothing to do."
@@ -763,23 +764,23 @@ msgstr ""
 
 #: src/game.cpp
 msgid "Shutting down..."
-msgstr ""
+msgstr "Cerrando..."
 
 #: src/game.cpp
 msgid "Creating server..."
-msgstr ""
+msgstr "Creando servidor..."
 
 #: src/game.cpp
 msgid "Creating client..."
-msgstr ""
+msgstr "Creando cliente..."
 
 #: src/game.cpp
 msgid "Resolving address..."
-msgstr ""
+msgstr "Resolviendo dirección..."
 
 #: src/game.cpp
 msgid "Connecting to server..."
-msgstr ""
+msgstr "Conectando al servidor..."
 
 #: src/game.cpp
 msgid "Item definitions..."
@@ -795,28 +796,28 @@ msgstr ""
 
 #: src/game.cpp
 msgid "KiB/s"
-msgstr ""
+msgstr "KiB/s"
 
 #: src/game.cpp
 msgid "MiB/s"
-msgstr ""
+msgstr "MiB/s"
 
 #: src/game.cpp
 msgid "Volume changed to 100%"
-msgstr ""
+msgstr "Volumen cambiado al 100%"
 
 #: src/game.cpp
 msgid "Volume changed to 0%"
-msgstr ""
+msgstr "Volumen cambiado al 0%"
 
 #: src/game.cpp
 #, c-format
 msgid "Volume changed to %d%%"
-msgstr ""
+msgstr "Volumen cambiado al %d%%"
 
 #: src/game.cpp src/guiFormSpecMenu.cpp
 msgid "ok"
-msgstr ""
+msgstr "Aceptar"
 
 #: src/game.cpp
 msgid ""
@@ -852,50 +853,64 @@ msgid ""
 "- Mouse wheel: select item\n"
 "- %s: chat\n"
 msgstr ""
+"Controles:\n"
+"- %s: avanzar\n"
+"- %s: retroceder\n"
+"- %s: izquierda\n"
+"- %s: derecha\n"
+"- %s: saltar/subir\n"
+"- %s: sigilo/bajar\n"
+"- %s: soltar\n"
+"- %s: inventario\n"
+"- Ratón: girar/mirar\n"
+"- Ratón izq.: cavar/golpear\n"
+"- Ratón der.: poner/usar\n"
+"- Rueda del ratón: seleccionar\n"
+"- %s: chat\n"
 
 #: src/game.cpp
 msgid "Continue"
-msgstr ""
+msgstr "Continuar"
 
 #: src/game.cpp
 msgid "Change Password"
-msgstr ""
+msgstr "Cambiar contraseña"
 
 #: src/game.cpp
 msgid "Game paused"
-msgstr ""
+msgstr "Juego pausado"
 
 #: src/game.cpp
 msgid "Sound Volume"
-msgstr ""
+msgstr "Volumen del sonido"
 
 #: src/game.cpp
 msgid "Change Keys"
-msgstr ""
+msgstr "Cambiar teclas"
 
 #: src/game.cpp
 msgid "Exit to Menu"
-msgstr ""
+msgstr "Salir al menú"
 
 #: src/game.cpp
 msgid "Exit to OS"
-msgstr ""
+msgstr "Salir al sistema"
 
 #: src/game.cpp
 msgid "Game info:"
-msgstr ""
+msgstr "Información del juego:"
 
 #: src/game.cpp
 msgid "- Mode: "
-msgstr ""
+msgstr "- Modo: "
 
 #: src/game.cpp
 msgid "Remote server"
-msgstr ""
+msgstr "Servidor remoto"
 
 #: src/game.cpp
 msgid "- Address: "
-msgstr ""
+msgstr "- Dirección: "
 
 #: src/game.cpp
 msgid "Hosting server"
@@ -903,7 +918,7 @@ msgstr ""
 
 #: src/game.cpp
 msgid "- Port: "
-msgstr ""
+msgstr "- Puerto: "
 
 #: src/game.cpp
 msgid "Singleplayer"
@@ -919,11 +934,11 @@ msgstr ""
 
 #: src/game.cpp
 msgid "- Damage: "
-msgstr ""
+msgstr "- Daño: "
 
 #: src/game.cpp
 msgid "- Creative Mode: "
-msgstr ""
+msgstr "- Modo creativo: "
 
 #: src/game.cpp
 msgid "- PvP: "
