@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: minetest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-21 17:40+0200\n"
-"PO-Revision-Date: 2018-01-04 03:13+0100\n"
+"PO-Revision-Date: 2018-01-05 06:51+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -3214,17 +3214,21 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid "Default privileges"
-msgstr ""
+msgstr "Privilegios por defecto"
 
 #: src/settings_translation_file.cpp
+#, fuzzy
 msgid ""
 "The privileges that new users automatically get.\n"
 "See /privs in game for a full list on your server and mod configuration."
 msgstr ""
+"Los privilegios que los nuevos usuarios obtienen automáticamente.\n"
+"Vea /privs en el juego para una lista completa en su servidor y "
+"configuración de mod."
 
 #: src/settings_translation_file.cpp
 msgid "Basic Privileges"
-msgstr ""
+msgstr "Privilegios básicos"
 
 #: src/settings_translation_file.cpp
 msgid "Privileges that players with basic_privs can grant"
@@ -3250,7 +3254,7 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid "Player versus Player"
-msgstr ""
+msgstr "Jugador contra jugador"
 
 #: src/settings_translation_file.cpp
 msgid "Whether to allow players to damage and kill each other."
@@ -4549,7 +4553,7 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid "Builtin"
-msgstr ""
+msgstr "Incluido"
 
 #: src/settings_translation_file.cpp
 msgid ""
@@ -4572,11 +4576,11 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid "Client and Server"
-msgstr ""
+msgstr "Cliente y servidor"
 
 #: src/settings_translation_file.cpp
 msgid "Player name"
-msgstr ""
+msgstr "Nombre del jugador"
 
 #: src/settings_translation_file.cpp
 msgid ""
@@ -4587,7 +4591,7 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: src/settings_translation_file.cpp
 msgid ""
@@ -4597,7 +4601,7 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid "Debug log level"
-msgstr ""
+msgstr "Nivel de registro de depuración"
 
 #: src/settings_translation_file.cpp
 msgid ""
@@ -4610,14 +4614,22 @@ msgid ""
 "-    info\n"
 "-    verbose"
 msgstr ""
+"Nivel de registro a escribir en debug.txt:\n"
+"-    <nada> (sin registros)\n"
+"-    ninguno (mensajes sin nivel)\n"
+"-    error\n"
+"-    advertencia\n"
+"-    acción\n"
+"-    información\n"
+"-    meticuloso"
 
 #: src/settings_translation_file.cpp
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: src/settings_translation_file.cpp
 msgid "IPv6 support."
-msgstr ""
+msgstr "Soporte IPv6."
 
 #: src/settings_translation_file.cpp
 msgid "cURL timeout"
@@ -4664,7 +4676,7 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid "Replaces the default main menu with a custom one."
-msgstr ""
+msgstr "Sustituye el menú principal predeterminado por uno personalizado."
 
 #: src/settings_translation_file.cpp
 msgid "Main menu game manager"
