@@ -1109,7 +1109,7 @@ void MapblockMeshGenerator::drawRaillikeNode()
 	raillike_group = nodedef->get(n).getGroup(raillike_groupname);
 
 	int code = 0;
-	int angle;
+	int angle =0;
 	int tile_index;
 	bool sloped = false;
 	for (int dir = 0; dir < 4; dir++) {
