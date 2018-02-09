@@ -4587,6 +4587,14 @@ msgid ""
 msgstr ""
 
 #: src/settings_translation_file.cpp
+msgid "Disables ascii logo"
+msgstr ""
+
+#: src/settings_translation_file.cpp
+msgid "Disables the ascii art logo from logs."
+msgstr ""
+
+#: src/settings_translation_file.cpp
 msgid "IPv6"
 msgstr ""
 

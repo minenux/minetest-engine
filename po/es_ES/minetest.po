@@ -4624,6 +4624,14 @@ msgstr ""
 "-    meticuloso"
 
 #: src/settings_translation_file.cpp
+msgid "Disables ascii logo"
+msgstr "Desactivar el logo ascii"
+
+#: src/settings_translation_file.cpp
+msgid "Disables the ascii art logo from logs."
+msgstr "Desactiva el logo ascii de registros y consola."
+
+#: src/settings_translation_file.cpp
 msgid "IPv6"
 msgstr "IPv6"
 

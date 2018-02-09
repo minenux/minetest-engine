@@ -62,6 +62,8 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "util/hex.h"
 #include "database.h"
 
+bool no_asciiart;
+
 class ClientNotFoundException : public BaseException
 {
 public:
@@ -408,13 +410,15 @@ void Server::start(Address bind_addr)
 	m_thread->start();
 
 	// ASCII art for the win!
-	actionstream
-	<<"        .__               __                   __   "<<std::endl
-	<<"  _____ |__| ____   _____/  |_  ____   _______/  |_ "<<std::endl
-	<<" /     \\|  |/    \\_/ __ \\   __\\/ __ \\ /  ___/\\   __\\"<<std::endl
-	<<"|  Y Y  \\  |   |  \\  ___/|  | \\  ___/ \\___ \\  |  |  "<<std::endl
-	<<"|__|_|  /__|___|  /\\___  >__|  \\___  >____  > |__|  "<<std::endl
-	<<"      \\/        \\/     \\/          \\/     \\/        "<<std::endl;
+	if (!(no_asciiart || g_settings->getFlag("no_ascii_art"))) {
+		actionstream
+		<<"        .__               __                   __   "<<std::endl
+		<<"  _____ |__| ____   _____/  |_  ____   _______/  |_ "<<std::endl
+		<<" /     \\|  |/    \\_/ __ \\   __\\/ __ \\ /  ___/\\   __\\"<<std::endl
+		<<"|  Y Y  \\  |   |  \\  ___/|  | \\  ___/ \\___ \\  |  |  "<<std::endl
+		<<"|__|_|  /__|___|  /\\___  >__|  \\___  >____  > |__|  "<<std::endl
+		<<"      \\/        \\/     \\/          \\/     \\/        "<<std::endl;
+	}
 	actionstream<<"World at ["<<m_path_world<<"]"<<std::endl;
 	actionstream<<"Server for gameid=\""<<m_gamespec.id
 			<<"\" listening on "<<bind_addr.serializeString()<<":"
