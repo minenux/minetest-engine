@@ -52,6 +52,10 @@ private:
 	// timeofday: nil = current time, 0 = night, 0.5 = day
 	static int l_get_node_light(lua_State *L);
 
+	// get_node_name(pos)
+	// pos = {x=num, y=num, z=num}
+	static int l_get_node_name(lua_State *L);
+
 	// place_node(pos, node)
 	// pos = {x=num, y=num, z=num}
 	static int l_place_node(lua_State *L);

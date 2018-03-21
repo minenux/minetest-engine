@@ -264,6 +264,22 @@ int ModApiEnvMod::l_get_node_light(lua_State *L)
 	return 1;
 }
 
+// get_node_name(pos)
+// pos = {x=num, y=num, z=num}
+int ModApiEnvMod::l_get_node_name(lua_State *L)
+{
+	GET_ENV_PTR;
+
+	// pos
+	v3s16 pos = read_v3s16(L, 1);
+	// Do it
+	MapNode n = env->getMap().getNodeNoEx(pos);
+	INodeDefManager *ndef = env->getGameDef()->ndef();
+	// Return node name string
+	lua_pushstring(L, ndef->get(n).name.c_str());
+	return 1;
+}
+
 // place_node(pos, node)
 // pos = {x=num, y=num, z=num}
 int ModApiEnvMod::l_place_node(lua_State *L)
@@ -1099,6 +1115,7 @@ void ModApiEnvMod::Initialize(lua_State *L, int top)
 	API_FCT(get_node);
 	API_FCT(get_node_or_nil);
 	API_FCT(get_node_light);
+	API_FCT(get_node_name);
 	API_FCT(place_node);
 	API_FCT(dig_node);
 	API_FCT(punch_node);

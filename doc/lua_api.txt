@@ -2426,6 +2426,10 @@ and `minetest.auth_reload` call the authetification handler.
     * `pos`: The position where to measure the light.
     * `timeofday`: `nil` for current time, `0` for night, `0.5` for day
     * Returns a number between `0` and `15` or `nil`
+* `minetest.get_node_name(pos)`
+    * Returns the node name at the given position as string
+        returns "ignore" for unloaded areas
+    * Is the same as minetest.get_node(pos).name but more faster
 * `minetest.place_node(pos, node)`
     * Place node with the same effects that a player would cause
 * `minetest.dig_node(pos)`
