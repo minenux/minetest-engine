@@ -45,6 +45,7 @@ public:
 	s16 on_player_hpchange(ServerActiveObject *player, s16 hp_change);
 	void on_playerReceiveFields(ServerActiveObject *player,
 			const std::string &formname, const StringMap &fields);
+	void on_auth_failure(const std::string &name, const std::string &ip);
 };
 
 #endif /* S_PLAYER_H_ */

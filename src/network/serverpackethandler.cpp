@@ -573,6 +573,7 @@ void Server::handleCommand_Init_Legacy(NetworkPacket* pkt)
 			<< " at " << addr_s
 			<< " supplied wrong password (auth mechanism: legacy)."
 			<< std::endl;
+		m_script->on_auth_failure(playername, addr_s);
 		DenyAccess_Legacy(pkt->getPeerId(), L"Wrong password");
 		return;
 	}
@@ -1900,7 +1901,7 @@ void Server::handleCommand_SrpBytesA(NetworkPacket* pkt)
 		actionstream << "Server: got SRP _A packet, while auth"
 			<< "is already going on with mech " << client->chosen_mech
 			<< " from " << getPeerAddress(pkt->getPeerId()).serializeString()
-			<< " (wantSudo=" << wantSudo << "). Ignoring." << std::endl;
+			<< " (wantSudo=" << wantSudo << "). Ignoring." << std::endl;//			m_script->on_auth_failure(client->getName(), ip); TODO minenux log fail strange packeds
 		if (wantSudo) {
 			DenySudoAccess(pkt->getPeerId());
 			return;
@@ -1925,7 +1926,7 @@ void Server::handleCommand_SrpBytesA(NetworkPacket* pkt)
 		if (!client->isSudoMechAllowed(chosen)) {
 			actionstream << "Server: Player \"" << client->getName()
 				<< "\" at " << getPeerAddress(pkt->getPeerId()).serializeString()
-				<< " tried to change password using unallowed mech "
+				<< " tried to change password using unallowed mech "//			m_script->on_auth_failure(client->getName(), ip); TODO minenux log fail strange packeds
 				<< chosen << "." << std::endl;
 			DenySudoAccess(pkt->getPeerId());
 			return;
@@ -1934,7 +1935,7 @@ void Server::handleCommand_SrpBytesA(NetworkPacket* pkt)
 		if (!client->isMechAllowed(chosen)) {
 			actionstream << "Server: Client tried to authenticate from "
 				<< getPeerAddress(pkt->getPeerId()).serializeString()
-				<< " using unallowed mech " << chosen << "." << std::endl;
+				<< " using unallowed mech " << chosen << "." << std::endl;//			m_script->on_auth_failure(client->getName(), ip); TODO minenux log fail strange packeds
 			DenyAccess(pkt->getPeerId(), SERVER_ACCESSDENIED_UNEXPECTED_DATA);
 			return;
 		}
@@ -2009,7 +2010,7 @@ void Server::handleCommand_SrpBytesM(NetworkPacket* pkt)
 		actionstream << "Server: got SRP _M packet, while auth"
 			<< "is going on with mech " << client->chosen_mech
 			<< " from " << getPeerAddress(pkt->getPeerId()).serializeString()
-			<< " (wantSudo=" << wantSudo << "). Denying." << std::endl;
+			<< " (wantSudo=" << wantSudo << "). Denying." << std::endl;//			m_script->on_auth_failure(client->getName(), ip); TODO minenux log fail strange packeds
 		if (wantSudo) {
 			DenySudoAccess(pkt->getPeerId());
 			return;
@@ -2049,6 +2050,7 @@ void Server::handleCommand_SrpBytesM(NetworkPacket* pkt)
 				<< " at " << getPeerAddress(pkt->getPeerId()).serializeString()
 				<< " supplied wrong password (auth mechanism: SRP)."
 				<< std::endl;
+			m_script->on_auth_failure(client->getName(), ip);
 			DenyAccess(pkt->getPeerId(), SERVER_ACCESSDENIED_WRONG_PASSWORD);
 			return;
 		}
@@ -2061,7 +2063,8 @@ void Server::handleCommand_SrpBytesM(NetworkPacket* pkt)
 		std::string checkpwd; // not used, but needed for passing something
 		if (!m_script->getAuth(playername, &checkpwd, NULL)) {
 			actionstream << "Server: " << playername << " cannot be authenticated"
-				<< " (auth handler does not work?)" << std::endl;
+				<< " at " << getPeerAddress(pkt->getPeerId()).serializeString()
+				<< " (auth handler does not work?)" << std::endl; //			m_script->on_auth_failure(client->getName(), ip); TODO minenux log fail strange packeds
 			DenyAccess(pkt->getPeerId(), SERVER_ACCESSDENIED_SERVER_FAIL);
 			return;
 		}
