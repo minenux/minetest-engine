@@ -279,6 +279,16 @@ core.register_chatcommand("auth_reload", {
 	end,
 })
 
+core.register_chatcommand("auth_commit", {
+	params = "",
+	description = "write authentication data to disk",
+	privs = {server=true},
+	func = function(name, param)
+		local done = core.auth_commit()
+		return done, (done and "Authentication data successfully saved to disk." or "Failed to write the auth.txt file.")
+	end,
+})
+
 core.register_chatcommand("remove_player", {
 	params = "<name>",
 	description = "Remove player data",

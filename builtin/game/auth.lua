@@ -39,6 +39,7 @@ local function read_auth_file()
 		core.log("info", core.auth_file_path.." could not be opened for reading ("..errmsg.."); assuming new world")
 		return
 	end
+	minetest.log( "action", "Reading authentication data from disk..." )
 	for line in file:lines() do
 		if line ~= "" then
 			local fields = line:split(":", true)
@@ -127,7 +128,7 @@ core.builtin_auth_handler = {
 			privileges = core.string_to_privs(core.settings:get("default_privs")),
 			last_login = os.time(),
 		}
-		save_auth_file()
+--		save_auth_file() -- save only when users logout or set a password
 	end,
 	set_password = function(name, password)
 		assert(type(name) == "string")
@@ -154,7 +155,13 @@ core.builtin_auth_handler = {
 		save_auth_file()
 	end,
 	reload = function()
+		minetest.log( "action", "Reading authentication data from disk..." )
 		read_auth_file()
+		return true
+	end,
+	commit = function()
+		minetest.log( "action", "Writing authentication data manually (commit) to disk..." )
+		save_auth_file()
 		return true
 	end,
 	record_login = function(name)
@@ -190,6 +197,7 @@ end
 core.set_player_password = auth_pass("set_password")
 core.set_player_privs    = auth_pass("set_privileges")
 core.auth_reload         = auth_pass("reload")
+core.auth_commit         = auth_pass("commit")
 
 
 local record_login = auth_pass("record_login")
